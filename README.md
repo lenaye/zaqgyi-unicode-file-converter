@@ -1,4 +1,4 @@
-# zaqgyi-unicode-file-converter
+# zawgyi-unicode-file-converter
 
 I created a simple script to convert text files in Zawgyi to Unicode, as I couldn't find one in existence. There are plenty of online converters where you paste in a piece of text in ZG and it'll produce a Unicode version. This is fine, if all you have is a paragraph or a page or two to convert. But if you have many files over 10s or 100s of pages then this type of conversion is not feasible to do it page by page or file per file manually.<p>
 
