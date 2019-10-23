@@ -4,6 +4,9 @@ I created a simple script to convert text files in Zawgyi to Unicode, as I could
 
 The zg2uni Python function code snippet used in the script comes courtesy of Rabbbit Conveter: https://github.com/Rabbit-Converter/Rabbit <p>
 
+<b>Limitations:</b>
+The script will only work with plain text files, i.e. .txt, .csv or .html. It will not work in .rtf, .docsx, .xlsx, etc. 
+
 <b>Usage:</b><p>
 <p>
 ><i>python zg-uni-file-converter.py -s {source directory} -d {destination dir. (optional)} -e {file extension (optional)} -n {name extension (optional)}</i>
@@ -58,6 +61,6 @@ file_one.uni.txt<br>
 file_four.uni.txt <br>
 
 <b>To Do:</b>
-Extend the directory scanner to parse through the entire sub-directory tree and convert all files within them
+Extend the directory scanner to parse through the entire sub-directory tree and convert all files within them. This will be suitable for converting, for example, an entire website written in ZG by converting all HTML files.
 
 
